@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var nameLable: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var mailButton: UIButton!
@@ -31,6 +32,14 @@ class ViewController: UIViewController {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor ()
+        
+        // Added name.Label functionality to the BitFounain Postcard Project
+        nameLable.hidden = false
+        nameLable.text = enterNameTextField.text
+        nameLable.textColor = UIColor.blueColor()
+        
+        enterNameTextField.text = ""
+        enterNameTextField.resignFirstResponder()
         
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()

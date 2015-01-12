@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="341" width="333" height="93"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4DD-gJ-hGA">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="182" width="225" height="62"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="feC-w2-Nxl"/>
                                 <exclude reference="J9h-GZ-C1v"/>
                                 <exclude reference="Zkq-5s-lwp"/>
+                                <exclude reference="4DD-gJ-hGA"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="feC-w2-Nxl"/>
                                 <include reference="J9h-GZ-C1v"/>
                                 <include reference="Zkq-5s-lwp"/>
+                                <include reference="4DD-gJ-hGA"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="s4i-gE-2rc" id="28s-fp-KMd"/>
                         <outlet property="mailButton" destination="feC-w2-Nxl" id="IWp-I7-5Fv"/>
                         <outlet property="messageLabel" destination="J9h-GZ-C1v" id="l1n-pc-wqe"/>
+                        <outlet property="nameLable" destination="4DD-gJ-hGA" id="Cqj-Vy-D7P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GIG-SJ-Mn2" userLabel="First Responder" sceneMemberID="firstResponder"/>
